@@ -1,0 +1,99 @@
+/* Style for the navigation bar */
+*{
+  color: aliceblue;
+}
+body {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+	padding: 0;
+	background-color: #8adae0;
+    
+}
+header {
+    top: 0px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration:royalblue;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul li {
+    margin: 0;
+  }
+  
+  nav ul ul a {
+    font-size: 14px;
+  }
+  
+  /* Style for the subject icons */
+  .subjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .subjects a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .subjects img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .subjects h2 {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+  }
+.body{
+    background-image:url(bg.avif);
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+    }
