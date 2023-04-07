@@ -1,0 +1,2 @@
+# SEEKAI
+Ed tech
